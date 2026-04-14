@@ -114,6 +114,10 @@ Affiché dans la page `/hidden-entry.html` lorsque le User‑Agent correct est u
 
 ## Writeup interne (réservé à l’orga)
 
+
+https://github.com/user-attachments/assets/8d51e9cc-de86-4617-83f1-a3dfe0d70496
+
+
 1. Le joueur visite le site principal.
 2. Il consulte `/robots.txt`.
 3. Il découvre une mention indiquant qu’un User‑Agent spécifique est autorisé à accéder à la page cachée.
