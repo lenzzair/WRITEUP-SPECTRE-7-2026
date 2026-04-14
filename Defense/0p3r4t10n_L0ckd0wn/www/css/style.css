@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&display=swap');
+
+:root {
+    --bg:        #0a0c0f;
+    --surface:   #10141a;
+    --surface2:  #161c24;
+    --border:    #1e2d3d;
+    --accent:    #9b0000;
+    --danger:    #ff3b3b;
+    --warn:      #ffaa00;
+    --ok:        #00e676;
+    --text:      #c8d8e8;
+    --muted:     #5a7080;
+    --mono:      'Share Tech Mono', monospace;
+    --sans:      'Rajdhani', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+}
+
+header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 13px;
+}
+
+.logo em { color: var(--muted); font-style: normal; }
+.status-ok   { color: var(--ok); }
+.status-warn { color: var(--warn); }
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+main.centered { text-align: center; padding-top: 80px; }
+main.centered h1 { font-size: 26px; margin-bottom: 10px; }
+main.centered p  { color: var(--muted); font-family: var(--mono); font-size: 14px; }
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 28px;
+}
+
+.card h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+.inline-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-text {
+    flex: 1;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 10px 14px;
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.input-text:focus { border-color: var(--accent); }
+
+.btn {
+    background: var(--accent);
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 22px;
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover { opacity: 0.85; }
+
+.file-output {
+    background: #060810;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.file-output-header {
+    background: var(--surface2);
+    padding: 8px 14px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+}
+
+.file-output-header code { color: var(--accent); }
+
+.file-output pre {
+    padding: 16px;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-all;
+    max-height: 400px;
+    overflow-y: auto;
+}

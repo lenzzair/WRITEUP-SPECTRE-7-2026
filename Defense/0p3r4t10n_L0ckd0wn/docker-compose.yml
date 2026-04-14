@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  spectre7-web:
+    build: .
+    container_name: ctf-spectre7
+    ports:
+      - "8080:80"
+      - "2222:22"
+    restart: unless-stopped
+
