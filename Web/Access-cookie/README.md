@@ -30,6 +30,10 @@ Scénario utilisateur : inscription → cookie → dashboard (affiche les champs
 * Base64 encoding/decoding de JSON.
 * Particularités : champs « décoratifs » dans le cookie (`language`) — inutiles pour la logique d’accès, présents pour réalisme.
 
+
+https://github.com/user-attachments/assets/8b008816-7f09-4077-aae8-1c45423122fd
+
+
 ---
 
 ## Création du challenge
