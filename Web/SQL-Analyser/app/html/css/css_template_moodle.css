@@ -1,0 +1,66 @@
+       :root {
+           --black: #000000;
+           --dred: #87171a;
+           --mred: #c61e23;
+           --bred: #ff0000;
+           --grey: #bebebe;
+           --white: #ffffff;
+       }
+
+       body {
+           background: var(--black);
+           color: var(--grey);
+           font-family: "Courier New", monospace;
+       }
+
+       .header {
+           background-color: #111;
+           padding: 1rem;
+           border-bottom: 1px solid var(--dred);
+       }
+
+       .spectre-logo {
+           width: 80px;
+       }
+
+       .navbar {
+           background: #111;
+           border-bottom: 1px solid var(--dred);
+       }
+
+       .navbar-brand {
+           color: var(--white) !important;
+       }
+
+       .course-card {
+           background: #111;
+           border: 1px solid var(--mred);
+           border-radius: 10px;
+           padding: 1.2rem;
+           cursor: pointer;
+           transition: .25s;
+           box-shadow: 0 0 10px rgba(198, 30, 35, 0.15);
+       }
+
+       .course-card:hover {
+           border-color: var(--bred);
+           box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+           transform: translateY(-3px);
+       }
+
+       .course-title {
+           color: var(--bred);
+       }
+
+       .modal-content {
+           background: #000;
+           border: 1px solid var(--mred);
+       }
+
+       .modal-header {
+           border-bottom: 1px solid var(--dred);
+       }
+
+       .btn-close {
+           filter: invert(1);
+       }

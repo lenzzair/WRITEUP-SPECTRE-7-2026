@@ -1,0 +1,30 @@
+:root {
+  --black: #000000;
+  --dark-red: #87171a;
+  --mid-red: #c61e23;
+  --bright-red: #ff0000;
+  --grey: #bebebe;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+}
+
+.login-box {
+  background: #111;
+  border: 1px solid var(--mid-red);
+}
+
+.btn-red {
+  background: var(--mid-red);
+  color: var(--white);
+}
+
+.btn-red:hover {
+  background: var(--bright-red);
+}
+.spectre-logo {
+  width: 80px;
+}
